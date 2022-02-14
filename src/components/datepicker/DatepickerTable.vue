@@ -139,7 +139,7 @@ export default {
         */
         weeksInThisMonth() {
             this.validateFocusedDay()
-            const month = this.focused.month
+            const month = this.focused.month + 1
             const year = this.focused.year
             const weeksInThisMonth = []
 
